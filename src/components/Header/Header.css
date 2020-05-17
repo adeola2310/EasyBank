@@ -4,6 +4,10 @@
     height: 10vh;
 }
 
+.harmbugger{
+    /*visibility: hidden;*/
+    display: none;
+}
 .logo{
     padding: 15px;
 }
@@ -33,6 +37,11 @@ display: inline-flex;
         display: flex;
         padding: 5px 35px;
         justify-content: space-between;
+    }
+    .harmbugger{
+        height: 30px;
+        visibility: initial;
+        /*visibility: visible;*/
     }
     .lists{
         display: none;

@@ -18,6 +18,7 @@ class Header extends Component {
                        <li className="item">Home</li>
                    </ul>
                        <Button label="Request Invite"/>
+                       <img src={require('../../images/icon-hamburger.svg')} className="harmbugger"/>
                </nav>
             </div>
         );

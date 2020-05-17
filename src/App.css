@@ -64,7 +64,6 @@
 
 @media screen and (max-width: 600px){
     .App{
-        overflow-x: hidden;
     }
 
     .home_content{
@@ -79,11 +78,12 @@
         margin: auto;
     }
     .home_image{
-        overflow-x: scroll;
+        /*overflow-x: scroll;*/
     }
 
     .why_header{
         padding: 50px 35px;
+        text-align: center;
     }
 
     .all_whys{
@@ -94,9 +94,12 @@
         grid-template-columns: repeat(1, 250px);
         grid-row-gap: 15px;
     }
+    .card{
+        text-align: center;
+    }
     .articles{
         background-color: #FAFAFA;
-        padding: 10px 35px;
+        padding: 10px 40px;
     }
     .all_articles{
         display: grid;

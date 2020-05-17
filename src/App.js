@@ -46,7 +46,7 @@ function App() {
                     <div className="card">
                         <img src={require('./images/icon-budgeting.svg')} alt="budget"/>
                         <h4> Online Banking</h4>
-                        <p style={{textAlign:"left", lineHeight:'1.4', fontSize: '14px'}}>
+                        <p style={{textAlign:"left", lineHeight:'1.4', fontSize: '14px'}} className="cards">
                             Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world
                         </p>
                     </div>

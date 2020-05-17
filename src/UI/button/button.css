@@ -9,3 +9,11 @@
     font-size: 13px;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 600px){
+    .button{
+        /*visibility: hidden;*/
+        /*display: none;*/
+    }
+}
