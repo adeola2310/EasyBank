@@ -23,8 +23,13 @@ function App() {
 
                 </div>
                     <div className="home_image">
-                        {/*<img src={require('./images/bg-intro-desktop.svg')} alt="background" className="background"/>*/}
-                        <img src={require("./images/image-mockups.png")} alt="mockup" className="home_image"/>
+                        <div className="">
+                            <img src={require('./images/bg-intro-desktop.svg')} alt="background" className="background"/>
+                        </div>
+                        <div className="second-image">
+                            <img src={require("./images/image-mockups.png")} alt="mockup" className="home_image"/>
+
+                        </div>
                     </div>
             </div>
             </section>
