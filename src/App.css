@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+.App{
+    /*padding: 20px;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+    background-color: #FAFAFA;
+}
+.home_content{
+    display: flex;
+    padding: 40px 70px;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.header-three{
+    font-size: 40px;
+    /*color: #FBF9FD;*/
+}
+.paragraph{
+    line-height: 1.8;
+    font-size: 16px;
+    /*color: #FBFAFD;*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background{
+    z-index: 99;
+}
+.home_image{
+    position: relative;
+    left: 70px;
+    top: -20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.why{
+    background-color: #F4F5F7;
+    margin-top: -320px;
 }
 
-.App-link {
-  color: #61dafb;
+.why_header{
+    padding: 50px 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all_whys{
+    display: grid;
+    margin-top: 25px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    grid-template-columns: repeat(4, 300px);
+    grid-column-gap: 15px;
+}
+
+.articles{
+    background-color: #FAFAFA;
+    padding: 10px 70px;
+}
+
+.all_articles{
+    display: grid;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    grid-template-columns: repeat(4, 300px);
+    grid-column-gap: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .App{
+        overflow-x: hidden;
+    }
+
+    .home_content{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+    .content{
+        margin: auto;
+    }
+    .header-three{
+        margin: auto;
+    }
+    .home_image{
+        overflow-x: scroll;
+    }
+
+    .why_header{
+        padding: 50px 35px;
+    }
+
+    .all_whys{
+        display: grid;
+        margin-top: 25px;
+        padding-left: 35px;
+        padding-bottom: 50px;
+        grid-template-columns: repeat(1, 250px);
+        grid-row-gap: 15px;
+    }
+    .articles{
+        background-color: #FAFAFA;
+        padding: 10px 35px;
+    }
+    .all_articles{
+        display: grid;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        grid-template-columns: repeat(1, 250px);
+        grid-row-gap: 25px;
+    }
 }

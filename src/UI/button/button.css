@@ -1,0 +1,11 @@
+.button{
+    background-image: linear-gradient(to right, rgb(50,208,104), rgb(43,187,196));
+    border-radius: 100px;
+    padding: 15px 30px;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}

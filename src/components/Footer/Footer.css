@@ -1,0 +1,47 @@
+.footer{
+    background-color: #2D314D;
+    color: white;
+    padding: 30px 70px;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.career,
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.invite{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 600px){
+    .footer{
+        padding: 30px 35px;
+    }
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .career,
+    .about,
+    .invite{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
