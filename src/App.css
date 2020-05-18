@@ -97,12 +97,15 @@ bottom:30%
         margin-top: 25px;
         padding-left: 35px;
         padding-bottom: 50px;
-        grid-template-columns: repeat(1, 250px);
+        grid-template-columns: auto;
         grid-row-gap: 15px;
     }
     .card{
         text-align: center;
     }
+    /*.card > p{*/
+    /*    text-align: center;*/
+    /*}*/
     .articles{
         background-color: #FAFAFA;
         padding: 10px 40px;
@@ -111,7 +114,7 @@ bottom:30%
         display: grid;
         margin-top: 30px;
         padding-bottom: 50px;
-        grid-template-columns: repeat(1, 250px);
+        grid-template-columns: auto;
         grid-row-gap: 25px;
     }
 }
