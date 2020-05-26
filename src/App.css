@@ -1,15 +1,27 @@
-.App{
-    /*padding: 20px;*/
-}
 
 .home{
     background-color: #FAFAFA;
 }
 .home_content{
     display: flex;
-    padding: 40px 70px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     overflow-x: hidden;
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 630px -175px;
+
+}
+
+.home_header{
+    padding: 150px 50px 0 90px;
+    flex: 1;
+    /* border: 1px solid green; */
+}
+.home_image{
+    flex: 1;
+    /* border: 1px solid red; */
+    margin-right: -100px;
+    margin-top: -90px;
 }
 .header-three{
     font-size: 40px;
@@ -26,19 +38,14 @@
     left: 10%;
     bottom: 20%;
 }
-.home_image{
-    position: relative;
-    left: 80px;
-    /*top: 50%;*/
-    /*bottom: 20%;*/
-}
+
 .second-image{
 bottom:30%
 }
 
 .why{
     background-color: #F4F5F7;
-    margin-top: -320px;
+    margin-top: -200px;
 }
 
 .why_header{
@@ -69,22 +76,43 @@ bottom:30%
 
 
 @media screen and (max-width: 600px){
-    .App{
+
+    .home_image{
+        margin-right: 0;
+        margin-top: -80px;
+        border: 1px solid red;
+        display: block;
     }
 
+    .home_image > img {
+        width: 100%;
+    }
+    
     .home_content{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 40px 30px;
+        /* margin-top: 10%; */
     }
-    .content{
-        margin: auto;
+  
+    .home_header > h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .home_header > p{
+        text-align: center;
+
     }
     .header-three{
         margin: auto;
     }
-    .home_image{
-        /*overflow-x: scroll;*/
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .why{
+        margin: auto;
     }
 
     .why_header{
@@ -103,9 +131,7 @@ bottom:30%
     .card{
         text-align: center;
     }
-    /*.card > p{*/
-    /*    text-align: center;*/
-    /*}*/
+    
     .articles{
         background-color: #FAFAFA;
         padding: 10px 40px;
