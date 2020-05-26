@@ -15,11 +15,9 @@
 .home_header{
     padding: 150px 50px 0 90px;
     flex: 1;
-    /* border: 1px solid green; */
 }
 .home_image{
     flex: 1;
-    /* border: 1px solid red; */
     margin-right: -100px;
     margin-top: -90px;
 }
@@ -76,11 +74,12 @@ bottom:30%
 
 
 @media screen and (max-width: 600px){
-
+    .home_header{
+        padding: 10px 0px;
+    }
     .home_image{
         margin-right: 0;
         margin-top: -80px;
-        border: 1px solid red;
         display: block;
     }
 
