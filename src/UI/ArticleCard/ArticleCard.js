@@ -4,7 +4,7 @@ import propTypes from 'prop-types';
 
 class ArticleCard extends Component {
     render() {
-        let image1 = require('../../images/image-confetti.jpg');
+        // let image1 = require('../../images/image-confetti.jpg');
         return (
             <div className="art_card">
                 {this.props.images}

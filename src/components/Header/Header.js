@@ -18,7 +18,7 @@ class Header extends Component {
                        <li className="item">Blog</li>
                    </ul>
                        <Button label="Request Invite"/>
-                       <img src={require('../../images/icon-hamburger.svg')} className="harmbugger"/>
+                       <img src={require('../../images/icon-hamburger.svg')} className="harmbugger" alt="harmburger_icon"/>
                </nav>
             </div>
         );
