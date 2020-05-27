@@ -4,11 +4,9 @@ import propTypes from 'prop-types';
 
 class ArticleCard extends Component {
     render() {
-        // let image1 = require('../../images/image-confetti.jpg');
         return (
             <div className="art_card">
-                {this.props.images}
-            {/* <img src={require('../../images/image-confetti.jpg')} alt="articles" className="art_img"/> */}
+                <img src={this.props.src} className="art_img"/>
             <div className="content">
         <p className="author">{this.props.author}</p>
         <h5 className="title">{this.props.title}</h5>
@@ -24,7 +22,7 @@ ArticleCard.propTypes = {
     author: propTypes.string,
     title: propTypes.string,
     text: propTypes.string,
-    images: propTypes.string
+    src: propTypes.string
 };
 
 export default ArticleCard;
